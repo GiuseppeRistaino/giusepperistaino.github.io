@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Vrexas</title>
+    <meta name="description" content="Vrexas personal web site" />
+    <meta name="author" content="Vrexas" />
+
+    <!-- TODO: Update og:title to match your application name -->
+    <meta property="og:title" content="Vrexas App" />
+    <meta property="og:description" content="Vrexas Generated Project" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function (location) {
+        if (location.search[1] === "/") {
+          var decoded = location.search
+            .slice(1)
+            .split("&")
+            .map(function (part) {
+              return part.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, location.pathname.slice(0, -1) + decoded + location.hash);
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/assets/index-CfXc_2bc.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CPOd0Ucs.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
